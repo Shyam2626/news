@@ -4,7 +4,7 @@
  <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
         <% if(news.length>0){
                     for (var i=0 ; i<news.length ; i++){ %>
-                        <div class="card mx-3" style="width: 16rem;margin-top:20px; height: 30rem">
+                        <div class="card mx-3" style="width: 16rem;margin-top:20px;">
                             <img src="<%= news[i].urlToImage%>" class="card-img-top" alt="<%= news[i].title%>">
                             <div class="card-body">
                                 <h5 class="card-title"><%= news[i].title%></h5>
